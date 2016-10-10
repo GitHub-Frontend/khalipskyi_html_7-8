@@ -1,0 +1,109 @@
+
+body {
+    background:#745083 url(..//img/bg_top.jpg) no-repeat center top;
+}
+.header {
+    margin: 0 auto;
+    padding-top: 59px;
+    height: 847px;
+    width: 960px;
+    box-sizing: border-box;
+    }
+.logo {
+    float: left;
+    }
+.logo__img {
+    width: 152px;
+    height: 50px;
+    background-image: url(..//img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: -2px 0;
+    }
+.menu {
+    margin-top: 11px;
+    height: 28px;
+    float: right;
+    }
+.menu__link {
+    margin-left: 47px;
+    font-family: "League Gothic";
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 1.405;
+    text-align: left;
+    text-shadow: 1px 1.732px 2px rgb( 0, 0, 0 );
+    }
+.menu__link:hover {
+    border-bottom: solid 2px #edbfff;
+    }
+.main {
+    background: url(..//img/bg__body.jpg) repeat-x center top;
+    }
+.mainTop {
+  margin: 0 auto;
+    height: 340px;
+    width: 100%;
+    max-width: 2400px;
+    border-top: solid 1px #33253a;
+    box-sizing: border-box;
+
+    }
+.topInner {
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+    overflow: hidden;
+    }
+.topLeft {
+    width: 33.33333%;
+    height: 100%;
+    float: left;
+    background: yellow;
+    }
+.icons {
+    float: left;
+    background-image: url()
+    }
+.icons_wrench {
+  width: 24px;
+  height: 24px;
+  }
+.topCenter {
+    width: 33.33333%;
+    height: 100%;
+    float: left;
+    }
+.topRight {
+    width: 33.33333%;
+    height: 100%;
+    float: right;;
+    background: blue;
+    }
+
+.mainCenter {
+    margin: 0 auto;
+    height: 607px;
+    width: 100%;
+    border-top: solid 1px #0d151b;
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+.bottomConteiner {
+  margin: 0 auto;
+    height: 397px;
+    background: #ececec;
+}
+.footer {
+    height: 114px;
+    background:#ececec url(..//img/bg_bottom.jpg) no-repeat center top;
+    }
+.footerInner {
+  margin: 0 auto;
+  width: 960px;
+  height: 100%
+}
+.menu-footer {
+    float: left;
+}
