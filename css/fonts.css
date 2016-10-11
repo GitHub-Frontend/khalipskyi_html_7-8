@@ -16,30 +16,3 @@
     font-style: normal;
     font-weight: bold;
     }
-@font-face {
-    font-family: "Open Sans ExtraBold";
-    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot");
-    src: url("../fonts/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
-    url("../fonts/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-    }
-@font-face {
-    font-family: "Open Sans Light";
-    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
-    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
-    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-    }
-@font-face {
-    font-family: "Open Sans Light";
-    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
-    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
-    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
-    }
