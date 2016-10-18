@@ -315,18 +315,21 @@ a { text-decoration: none;
               display: block;
               line-height: 1.5em;
               color: #454545;
-              background: url(..//img/post_icons.png) no-repeat 6.7% -1%;
+              background-image: url(..//img/post_icons.png);
+              background-repeat: no-repeat;
+              background-position-x: 29px;
+              background-position-y: 1px;
               }
             .paragraf_1 {
                 font-family: "Open Sans ExtraBold";
                 }
             .post {
                 margin-top: 3.5%;
-                background-position-y: 51%;
+                background-position-y: -51px;
                 }
             .blog {
                 margin-top: 2.7%;
-                background-position-y: 102%;
+                background-position-y: -102px;
                 }
             .more_here {
                 margin-top: 4.5%;
