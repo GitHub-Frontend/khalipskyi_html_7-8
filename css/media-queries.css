@@ -1,0 +1,240 @@
+@media screen and (max-width: 960px) and (min-width:768px) {
+.header {
+    width: 100%;
+    min-width: 768px;
+    height: 799px;
+    }
+    /*Шапка*/
+    .header_Content {
+        margin: 0 auto;
+        width: 40%;
+        min-width: 768px;
+        height: 210px;
+        }
+      .logo {
+          margin-left: 20px;
+          margin-top: 70px;
+          display: block;
+          }
+          .logo__img {
+              width: 155px;
+              height: 39.2px;
+              background-image: url(..//img/logo-768.svg);
+              }
+      .menu {
+          margin: 0 auto;
+          display: block;
+          margin-top: 3.5%;
+          width: 71.2%;
+          min-width: 768px;
+          height: 12.5%;
+          }
+          .menu__link {
+              margin-left: 2.3%;
+              margin-right: 3.95%;
+              }
+      /*Слайдер*/
+      .Iphone_conteiner {
+          height: 588px;
+          }
+          .slider_iphone {
+              margin-top: 34px;
+              }
+          .Iphone {
+              min-width: 768px;
+              }
+          .description_iphone {
+              width: 41%;
+              }
+          .topic1 {
+              margin-top: 53px;
+              margin-left: 13%;
+              font-size: 3em;
+              letter-spacing: -0.65px;
+              }
+          .topic2 {
+              margin-top: 7px;
+              margin-left: 42px;
+              font-size: 1.5em;
+              overflow: hidden;
+              height: 24px;
+              letter-spacing: -0.3px;
+              }
+          .description_phone {
+              margin-left: 13%;
+              margin-top: 8px;
+              height: 100px;
+              overflow: hidden;
+              line-height: 26px;
+              text-align: justify;
+              }
+          .iphone__link {
+              float: right;
+              position: relative;
+              right: 52px;
+              bottom: 23px;
+              }
+  /*Главный блок*/
+.main {
+    height: 1347px;
+    }
+    .mainTop {
+        height: 341px;
+        }
+    .topInner {
+        min-width: 768px
+        }
+        .icons {
+            margin-top: 80px;
+            margin-left: 30px;
+            }
+        .topic3 {
+            margin-top: 17px;
+            margin-left: 25px;
+            margin-bottom: 5px;
+            font-size: 1.5em;
+            }
+        .description {
+            margin-left: 25px;
+            height: 140px;
+            width: 153px;
+            overflow: hidden;
+            }
+        .readMore {
+            position: relative;
+            top: 9px;
+            left: 115px;
+            }
+        /*Сообщения*/
+        .about_company__center {
+            width: 70%;
+            }
+        .topCenter__topic3 {
+            margin-left: 22px;
+            }
+        .topCenter__description {
+            margin-left: 21px;
+            }
+        .readMore__center {
+            left: 111px;
+            }
+        /*Музыка*/
+        .about_company__right {
+            margin-left: 59px;
+            }
+        .readMore__right {
+            left: 114px;
+            }
+    /*Центральный главный блок*/
+    .mainCenter_conteiner {
+        min-width: 768px;
+        }
+        .manuals {
+            background: #f9f9f9;
+            }
+        .manuals_inner {
+            margin-top: 101px;
+            margin-left: 42px;
+            height: 272px;
+            width: 312px;
+            box-shadow: 0px 1px 0.5px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            }
+      	/******Stars-Here******/
+        .stars_photo {
+            width: 50px;
+            top: 18px;
+            right: 24px;
+            }
+        .manuals_stars {
+            width: 270px;
+            position: relative;
+            bottom: 26px;
+            left: 39px;
+            }
+        .topic_stars {
+            margin-top: 6px;
+            font-size: 1.5em;
+            }
+        .stars__second {
+            margin-top: 5px;
+            display: block;
+            }
+        .starts_here {
+            margin-top: 10px;
+            width: 250px;
+            height: 150px;
+            overflow: hidden;
+            }
+         /***BLOG***/
+        .updates {
+            margin-top: 134px;
+            margin-left: 29px;
+            font-size: 1.875em;
+            }
+        .news {
+            margin-top: 18px;
+            margin-left: 20px;
+            background-position: 9px 0;
+            }
+        .post {
+            margin-top: 15px;
+            margin-left: 19px;
+            background-position: 11px -50px;
+            }
+        .blog {
+            margin-top: 15px;
+            margin-left: 19px;
+            background-position: 11px -101px;
+            }
+        .more_here {
+            display: none;
+            }
+        .more_here__block  {
+            margin-top: 20px;
+            margin-left: 268px;
+            display: block;
+            font-size: 1.125em;
+            color: black;
+            }
+        /*Партнеры*/
+        .partners {
+            min-width: 768px;
+            }
+        .partners_inner {
+            width: 728px;
+            }
+        .link__one {
+          margin-left: 0;
+        }
+        .link__two {
+            margin-left: 53px;
+            }
+        .link__three {
+            margin-left: 52px;
+            }
+        .link__four {
+            margin-left: 36px;
+            }
+        .link__five {
+            margin-left: 55px;
+            }
+        .link__six {
+            margin-left: 55px;
+            width: 81px;
+            }
+  /*Нижний главный блок*/
+    .content_mainBottom {
+        min-width: 768px;
+        }
+    .logo__comments, .italic, .comment__2, .comment__3 {
+        display: none;
+        }
+
+        .comments_line:before {
+          content: "NEWS CATEGORIES";
+          font-size: 1.5em;
+          font-family: "League Gothic";
+          }
+        
+      }
