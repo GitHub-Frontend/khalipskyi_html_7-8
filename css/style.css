@@ -19,15 +19,12 @@ a { text-decoration: none;
     }
     /*Шапка*/
 .header {
-    width: 100%;
-    min-width: 960px;
     height: 36.7%;
     background: #745083 url(..//img/bg_top.jpg) center top no-repeat;
     }
   .header_Content {
       margin: 0 auto;
-      width: 40%;
-      min-width: 960px;
+      width: 960px;
       height: 25%;
       }
     .logo {
@@ -44,35 +41,35 @@ a { text-decoration: none;
   /*Меню*/
   .menu {
       display: block;
-      margin-top: 7.3%;
-      width: 71.2%;
-      min-width: 683.52px;
+      margin-right: 2px;
+      margin-top: 70px;
+      width: 681px;
       height: 12.5%;
       float: right;
       }
     .menu__link {
-        margin-left: 7.023%;
-        font-family: "League Gothic";
-        font-size: 1.5em;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #ffffff;
-        line-height: 1.405;
-        text-align: left;
-        text-shadow: 1px 1.732px 2px rgba(0, 0, 0, 0.4);
-        }
+      margin-left: 49px;
+      font-family: "League Gothic";
+      font-size: 1.5em;
+      letter-spacing: -0.2px;
+      line-height: 1.405;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: left;
+      text-shadow: 1px 1.732px 2px rgba(0, 0, 0, 0.4);
+      color: #ffffff;
+      }
       .menu__link:hover {
           border-bottom: solid 2px #edbfff;
           }
   /*Слайдер*/
   .Iphone_conteiner {
       height: 75%;
-      width: 100%;
+      max-height: 634px;
       overflow: hidden;
       }
       .slider_iphone {
-          margin-top: 4.9%;
-          width: 100%;
+          margin-top: 66px;
           height: 400px;
           background: rgba(0, 0, 0, 0.25);
           box-sizing: border-box;
@@ -80,8 +77,7 @@ a { text-decoration: none;
           .Iphone {
               margin: 0 auto;
               height: 100%;
-              width: 40%;
-              min-width: 960px;
+              width: 960px;
               }
               .description_iphone {
                   display: block;
@@ -121,6 +117,16 @@ a { text-decoration: none;
                     background-repeat: no-repeat;
                     background-image: url(..//img/Iphone.png);
                     }
+            .buttons {
+                width: 86px;
+                margin-left: 67%;
+                margin-top: 93px;
+                }
+            .input__buttons {
+                height: 18px;
+                width: 18px;
+                margin: 0 1px 0 0;
+                                }
 /*Главный блок*/
 .main {
     background: url(..//img/bg__body.jpg) repeat-x center top;
@@ -136,8 +142,7 @@ a { text-decoration: none;
       }
     .topInner {
         margin: 0 auto;
-        width: 40%;
-        min-width: 960px;
+        width: 960px;
         height: 100%;
         overflow: hidden;
         }
@@ -218,7 +223,7 @@ a { text-decoration: none;
             .readMore__center {
                 left: 173px;
                 }
-        /*Музыка*/
+      /*Музыка*/
       .topRight {
           width: 33.33333%;
           height: 100%;
@@ -253,8 +258,7 @@ a { text-decoration: none;
     .mainCenter_conteiner {
         margin: 0 auto;
         height: 80%;
-        width: 40%;
-        min-width: 960px;
+        width: 960px;
         }
       .manuals {
           height: 100%;
@@ -296,6 +300,10 @@ a { text-decoration: none;
                 color: #454545;
                 text-shadow: 1px 0.866px 0 rgb( 255, 255, 255 );
                 }
+          .buttons__stars {
+              margin-top: 23px;
+              margin-left: 194px;
+              }
       /*Updates*/
       .resent_updates {
           height: 100%;
@@ -354,8 +362,7 @@ a { text-decoration: none;
           }
           .partners_inner {
               margin: 0 auto;
-              width: 100%;
-              max-width: 960px;
+              width: 960px;
               height: 100%;
               display: block;
               }
@@ -406,11 +413,13 @@ a { text-decoration: none;
       border-top: solid 1px #d8d8d8;
       background: #ececec;
       }
+      .news-Categories {
+          display: none;
+          }
       .content_mainBottom {
           margin: 0 auto;
           height: 100%;
-          width: 40%;
-          min-width: 960px;
+          width: 960px;
           }
           .comments {
               margin-top: 10%;

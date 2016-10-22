@@ -1,18 +1,21 @@
-@media screen and (max-width: 960px) and (min-width:768px) {
+@media screen and (max-width: 768px)
+/*and (min-width:768px)*/
+{
+.wrapper {
+  width: 768px;
+}
 .header {
-    width: 100%;
-    min-width: 768px;
+    width:  100%;
     height: 799px;
     }
     /*Шапка*/
     .header_Content {
         margin: 0 auto;
-        width: 40%;
-        min-width: 768px;
+        width: 768px;
         height: 210px;
         }
       .logo {
-          margin-left: 20px;
+          margin-left: 12px;
           margin-top: 70px;
           display: block;
           }
@@ -22,47 +25,45 @@
               background-image: url(..//img/logo-768.svg);
               }
       .menu {
-          margin: 0 auto;
-          display: block;
-          margin-top: 3.5%;
-          width: 71.2%;
-          min-width: 768px;
+          margin-top: 27px;
           height: 12.5%;
+          float: left;
           }
           .menu__link {
-              margin-left: 2.3%;
-              margin-right: 3.95%;
+              margin-left: 11px;
+              margin-right: 38px;
               }
       /*Слайдер*/
       .Iphone_conteiner {
           height: 588px;
+          display: block;
           }
           .slider_iphone {
               margin-top: 34px;
               }
           .Iphone {
-              min-width: 768px;
+              width: 768px;
               }
           .description_iphone {
               width: 41%;
               }
           .topic1 {
-              margin-top: 53px;
-              margin-left: 13%;
+              margin-top: 52px;
+              margin-left: 34px;
               font-size: 3em;
               letter-spacing: -0.65px;
               }
           .topic2 {
               margin-top: 7px;
-              margin-left: 42px;
+              margin-left: 34px;
               font-size: 1.5em;
               overflow: hidden;
               height: 24px;
               letter-spacing: -0.3px;
               }
           .description_phone {
-              margin-left: 13%;
-              margin-top: 8px;
+              margin-left: 34px;
+              margin-top: 7px;
               height: 100px;
               overflow: hidden;
               line-height: 26px;
@@ -71,8 +72,12 @@
           .iphone__link {
               float: right;
               position: relative;
-              right: 52px;
+              right: 60px;
               bottom: 23px;
+              }
+          .buttons {
+              margin-left: 533px;
+              margin-top: 37px;
               }
   /*Главный блок*/
 .main {
@@ -82,11 +87,11 @@
         height: 341px;
         }
     .topInner {
-        min-width: 768px
+        width: 768px
         }
         .icons {
-            margin-top: 80px;
-            margin-left: 30px;
+            margin-top: 78px;
+            margin-left: 22px;
             }
         .topic3 {
             margin-top: 17px;
@@ -98,6 +103,7 @@
             margin-left: 25px;
             height: 140px;
             width: 153px;
+            text-align: justify;
             overflow: hidden;
             }
         .readMore {
@@ -110,31 +116,31 @@
             width: 70%;
             }
         .topCenter__topic3 {
-            margin-left: 22px;
+            margin-left: 21px;
             }
         .topCenter__description {
-            margin-left: 21px;
+            margin-left: 20px;
             }
         .readMore__center {
             left: 111px;
             }
         /*Музыка*/
         .about_company__right {
-            margin-left: 59px;
+            margin-left: 0;
             }
         .readMore__right {
-            left: 114px;
+            left: 116px;
             }
     /*Центральный главный блок*/
     .mainCenter_conteiner {
-        min-width: 768px;
+        width: 768px;
         }
         .manuals {
             background: #f9f9f9;
             }
         .manuals_inner {
             margin-top: 101px;
-            margin-left: 42px;
+            margin-left: 34px;
             height: 272px;
             width: 312px;
             box-shadow: 0px 1px 0.5px rgba(0, 0, 0, 0.1);
@@ -143,7 +149,7 @@
       	/******Stars-Here******/
         .stars_photo {
             width: 50px;
-            top: 18px;
+            top: 17px;
             right: 24px;
             }
         .manuals_stars {
@@ -166,43 +172,53 @@
             height: 150px;
             overflow: hidden;
             }
+        .buttons__stars {
+            margin-top: 23px;
+            margin-left: 39%;
+            }
          /***BLOG***/
         .updates {
-            margin-top: 134px;
-            margin-left: 29px;
+            margin-top: 133px;
+            margin-left: 13px;
             font-size: 1.875em;
             }
         .news {
+            width: 260px;
             margin-top: 18px;
-            margin-left: 20px;
-            background-position: 9px 0;
+            margin-left: 11px;
+            background-position: 11px 0;
+            overflow: hidden;
             }
         .post {
-            margin-top: 15px;
-            margin-left: 19px;
+            width: 260px;
+            margin-top: 16px;
+            margin-left: 11px;
             background-position: 11px -50px;
+            overflow: hidden;
             }
         .blog {
-            margin-top: 15px;
-            margin-left: 19px;
+            width: 260px;
+            margin-top: 16px;
+            margin-left: 11px;
             background-position: 11px -101px;
+            overflow: hidden;
             }
         .more_here {
             display: none;
             }
         .more_here__block  {
-            margin-top: 20px;
-            margin-left: 268px;
+            margin-top: 18px;
+            margin-left: 260px;
             display: block;
             font-size: 1.125em;
             color: black;
             }
         /*Партнеры*/
         .partners {
-            min-width: 768px;
+            width: 768px;
             }
         .partners_inner {
-            width: 728px;
+            width: 745px;
             }
         .link__one {
           margin-left: 0;
@@ -224,17 +240,59 @@
             width: 81px;
             }
   /*Нижний главный блок*/
-    .content_mainBottom {
-        min-width: 768px;
+    .mainBottom {
+        height: 29.4%;
         }
-    .logo__comments, .italic, .comment__2, .comment__3 {
+    .content_mainBottom {
+        width: 768px;
+        }
+    .logo__comments, .italic, .comment__2  {
         display: none;
         }
-
-        .comments_line:before {
-          content: "NEWS CATEGORIES";
-          font-size: 1.5em;
-          font-family: "League Gothic";
-          }
-        
-      }
+    .news-Categories {
+        display: block;
+        margin-top: 26px;
+        margin-left: 9px;
+        }
+    .comments_line, .comments-line {
+        margin-top: 11px;
+        margin-left: 10px;
+        width: 200px;
+        height: 165px;
+        text-align: justify
+        }
+    .comment__2 {
+        padding-left: 10px;
+        margin-top: 76px;
+        }
+    .comment__3 {
+        margin-top: 26px;
+        margin-left: -2px;
+        }
+    .comments__3> .comments-line {
+        margin-left: -1px;
+        }
+    /*Меню подвал*/
+    .footer {
+        height: 8.7%;
+        background-size: cover;
+        }
+    .footerInner {
+        width: 768px;
+        }
+    .menu-footer {
+        margin-top: 46px;
+        min-width: 690px;
+        }
+    .menu__link--footer {
+        margin-left: 10px;
+        margin-right: 29px;
+        }
+    .footer-text {
+        margin-top: 31px;
+        margin-right: 31px;
+        }
+    /***The end min-widht 768px***/
+        }
+/*@media screen and (max-width: 768px) and (min-width:480px) {
+}*/
