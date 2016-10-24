@@ -1,8 +1,9 @@
-@media screen and (max-width: 768px)
-/*and (min-width:768px)*/
-{
+@media screen and (max-width: 768px) {
+/*and (min-width:480px)*/
+
 .wrapper {
   width: 768px;
+  min-height: 3037px;
 }
 .header {
     width:  100%;
@@ -14,71 +15,71 @@
         width: 768px;
         height: 210px;
         }
-      .logo {
-          margin-left: 12px;
-          margin-top: 70px;
-          display: block;
-          }
-          .logo__img {
-              width: 155px;
-              height: 39.2px;
-              background-image: url(..//img/logo-768.svg);
-              }
-      .menu {
-          margin-top: 27px;
-          height: 12.5%;
-          float: left;
-          }
-          .menu__link {
-              margin-left: 11px;
-              margin-right: 38px;
-              }
+    .logo {
+        margin-left: 12px;
+        margin-top: 70px;
+        display: block;
+        }
+        .logo__img {
+            width: 155px;
+            height: 39.2px;
+            background-image: url(..//img/logo-768.svg);
+            }
+    .menu {
+        margin-top: 27px;
+        height: 12.5%;
+        float: left;
+        }
+        .menu__link {
+            margin-left: 11px;
+            margin-right: 38px;
+            }
       /*Слайдер*/
-      .Iphone_conteiner {
-          height: 588px;
-          display: block;
-          }
-          .slider_iphone {
-              margin-top: 34px;
-              }
-          .Iphone {
-              width: 768px;
-              }
-          .description_iphone {
-              width: 41%;
-              }
-          .topic1 {
-              margin-top: 52px;
-              margin-left: 34px;
-              font-size: 3em;
-              letter-spacing: -0.65px;
-              }
-          .topic2 {
-              margin-top: 7px;
-              margin-left: 34px;
-              font-size: 1.5em;
-              overflow: hidden;
-              height: 24px;
-              letter-spacing: -0.3px;
-              }
-          .description_phone {
-              margin-left: 34px;
-              margin-top: 7px;
-              height: 100px;
-              overflow: hidden;
-              line-height: 26px;
-              text-align: justify;
-              }
-          .iphone__link {
-              float: right;
-              position: relative;
-              right: 60px;
-              bottom: 23px;
-              }
-          .buttons {
-              margin-left: 533px;
-              margin-top: 37px;
-              }
+    .Iphone_conteiner {
+        height: 588px;
+        display: block;
+        }
+    .slider_iphone {
+        margin-top: 34px;
+        }
+    .Iphone {
+        width: 768px;
+        }
+        .description_iphone {
+            width: 41%;
+            }
+        .topic1 {
+            margin-top: 52px;
+            margin-left: 34px;
+            font-size: 3em;
+            letter-spacing: -0.65px;
+            }
+        .topic2 {
+            margin-top: 7px;
+            margin-left: 34px;
+            font-size: 1.5em;
+            overflow: hidden;
+            height: 24px;
+            letter-spacing: -0.3px;
+            }
+        .description_phone {
+            margin-left: 34px;
+            margin-top: 7px;
+            height: 100px;
+            overflow: hidden;
+            line-height: 26px;
+            text-align: justify;
+            }
+        .iphone__link {
+            float: right;
+            position: relative;
+            right: 60px;
+            bottom: 23px;
+            }
+        .buttons {
+            margin-left: 533px;
+            margin-top: 37px;
+            }
   /*Главный блок*/
 .main {
     height: 1347px;
@@ -221,8 +222,8 @@
             width: 745px;
             }
         .link__one {
-          margin-left: 0;
-        }
+            margin-left: 0;
+            }
         .link__two {
             margin-left: 53px;
             }
@@ -249,34 +250,34 @@
     .logo__comments, .italic, .comment__2  {
         display: none;
         }
-    .news-Categories {
-        display: block;
-        margin-top: 26px;
-        margin-left: 9px;
-        }
-    .comments_line, .comments-line {
-        margin-top: 11px;
-        margin-left: 10px;
-        width: 200px;
-        height: 165px;
-        text-align: justify
-        }
-    .comment__2 {
-        padding-left: 10px;
-        margin-top: 76px;
-        }
-    .comment__3 {
-        margin-top: 26px;
-        margin-left: -2px;
-        }
-    .comments__3> .comments-line {
-        margin-left: -1px;
-        }
+        .news-Categories {
+            display: block;
+            margin-top: 26px;
+            margin-left: 9px;
+            }
+        .comments_line, .comments-line {
+            margin-top: 11px;
+            margin-left: 10px;
+            width: 200px;
+            height: 165px;
+            text-align: justify
+            }
+        .comment__2 {
+            padding-left: 10px;
+            margin-top: 76px;
+            }
+        .comment__3 {
+            margin-top: 26px;
+            margin-left: -2px;
+            }
+        .comments__3> .comments-line {
+            margin-left: -1px;
+            }
     /*Меню подвал*/
-    .footer {
-        height: 8.7%;
-        background-size: cover;
-        }
+.footer {
+    height: 8.7%;
+    background-size: cover;
+    }
     .footerInner {
         width: 768px;
         }
@@ -294,5 +295,330 @@
         }
     /***The end min-widht 768px***/
         }
-/*@media screen and (max-width: 768px) and (min-width:480px) {
-}*/
+@media screen and (max-width: 480px) {
+/*****and (min-width:321px)******/
+.wrapper {
+    max-width: 480px;
+    }
+    .header {
+        height: 548px;
+        }
+    .header_Content {
+        height: 169px;
+        width: 480px;
+        }
+    .logo {
+        margin: 0 auto;
+        padding-top: 70px;
+        width: 155px;
+        float: none;
+        }
+    /*Главное меню*/
+    .menu {
+        margin: 0 auto;
+        margin-top: 19px;
+        width: 260px;
+        border-radius: 8px;
+        float: none;
+        }
+    .menu__link {
+        margin: 0 auto;
+        margin-top: 4px;
+        height: 38px;
+        width: 246px;
+        display: none;
+        text-align: center;
+        line-height: 38px;
+        }
+    /*Выпадающее меню*/
+    .active-top {
+        height: 45px;
+        line-height: 53px;
+        display: block;
+        background: url(..//img/underline.png) no-repeat 100px 42px;
+        }
+    .menu-top:hover {
+        position: relative;
+        width: 246px;
+        height: 258px;
+        z-index: 1;
+        background: url(..//img/bg_menu-480.png);
+        }
+    .menu__link:hover {
+        display: block;
+        background: rgba(0, 0, 0, 0.3);
+        border-bottom: solid 2px #edbfff;
+        box-sizing: border-box;
+        }
+    .menu-top:hover>.menu__link {
+        display: block;
+        }
+    /*Слайдер*/
+    .Iphone_conteiner {
+        height: 380px;
+        }
+    .slider_iphone {
+        height: 246px;
+        }
+    .Iphone {
+        width: 480px;
+        }
+    .description_iphone {
+        width: 52%;
+        }
+    .topic1 {
+        font-size: 2.25em;
+        margin-top: 57px;
+        margin-left: 40px;
+        }
+    .topic2 {
+        font-size: 1.125em;
+        margin-left: 40px;
+        margin-top: 2px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 18px;
+        }
+    .description_phone {
+        display: none;
+        }
+    /*Айфон*/
+    .iphone__link {
+        height: 265px;
+        width: 48%;
+        right: -7px;
+        bottom: 9px;
+        }
+    .iphone__img {
+        width: 192px;
+        height: 310px;
+        background-size: contain;
+        }
+    .buttons {
+        margin-left: 203px;
+        margin-top: 22px;
+        }
+    /**Главный блок**/
+.main {
+    height: 2288px;
+    background: url(..//img/bg_480px) repeat-x center top;
+    }
+    /*tools*/
+    .mainTop {
+        height: 599px;
+        }
+    .topInner {
+        width: 480px
+        }
+    .topLeft {
+        width: 480px;
+        height: 208px;
+        float: none;
+        display: inline-block;
+        }
+    .icons {
+        margin-top: 78px;
+        margin-left: 31px;
+        }
+    .about_company {
+        margin: 0;
+        margin-top: 63px;
+        width: 85%;
+        display: inline-block;
+        }
+    .description {
+        height: 70px;
+        width: 360px;
+        }
+      .readMore {
+          left: 340px;
+          top: 15px;
+          }
+      /*message*/
+      .topCenter {
+          width: 480px;
+          height: 180px;
+          float: none;
+          display: inline-block;
+          }
+      .icons_bubble {
+          margin-top: 25px;
+          }
+      .about_company__center {
+          height: 145px;
+          margin-top: 9px;
+          margin-left: 5px;
+          }
+      .readMore__center {
+          top: 15px;
+          left: 335px;
+          }
+      /*audio*/
+      .topRight {
+          width: 480px;
+          height: 180px;
+          float: none;
+          display: inline-block;
+          }
+      .icons_music {
+          margin-top: 5px;
+          }
+      .about_company__right {
+        margin: 0;
+        margin-top: -10px;
+        height: 100%;
+        }
+    /*Центральный главный блок -->*/
+    .mainCenter {
+        height: 1019px;
+        }
+    .mainCenter_conteiner {
+        width: 480px;
+        height: 785px;
+        }
+    .manuals {
+        width: 100%;
+        height: 420px;
+        float: none;
+        overflow: hidden;
+        }
+    .manuals_inner {
+        margin-top: 70px;
+        margin-left: 44px;
+        width: 416px;
+        }
+    .manuals_stars {
+        width: 346px;
+        bottom: 29px;
+        }
+    .topic_stars {
+        margin-top: 7px;
+        font-size: 1.875em;
+        }
+    .stars__second {
+        margin: 0;
+        display: inline-block;
+        }
+    .starts_here {
+        width: 346px;
+        height: 170px;
+        margin-top: 16px;
+        letter-spacing: -0.1px;
+        }
+    .buttons__stars {
+        margin-top: 23px;
+        margin-left: 205px;
+        }
+     /***BLOG***/
+     .resent_updates {
+        width: 100%;
+        float: none;
+        height: 365px;
+        overflow: hidden;
+     }
+     .updates {
+         margin-top: 14px;
+         margin-left: 82px;
+         }
+      .category {
+          width: 260px;
+          height: 51px;
+          padding-left: 76px;
+          margin-left: 73px;
+          }
+      .more_here__block {
+          margin-left: 332px;
+          letter-spacing: -0.1px;
+          }
+        /*Партнеры*/
+      .partners {
+          width: 480px;
+          height: 234px;
+          }
+      .partners_inner {
+          width: 100%;
+          }
+      .partners_brend {
+          display: inline-block;
+          margin-top: 22px;
+          float: none;
+          }
+          .link__one {
+            margin-top: 34px;
+            margin-left: 82px;
+            background-position-y: 2px;
+            }
+          .link__two {
+              margin-left: 50px;
+              }
+          .link__three {
+              margin-left: 49px;
+              }
+          .link__four {
+              margin-left: 46px;
+              }
+          .link__five {
+              margin-left: 52px;
+              }
+          .link__six {
+              margin-left: 53px;
+              }
+    /*Нижний главный блок*/
+    .mainBottom {
+        height: 668px;
+        }
+    .content_mainBottom {
+        width: 100%;
+        height: 586px;
+        }
+    .comments {
+        margin-top: 82px;
+        padding: 0;
+        width: 100%;
+        height: 125px;
+        float: none;
+        }
+    .news-Categories, .comment__3 {
+        font-size: 1.5em;
+        margin-left: 18px;
+        }
+    .comments_line, .comments-line {
+        width: 92%;
+        height: 75%;
+        position: relative;
+        margin-top: 11px;
+        margin-left: 18px;
+        }
+    .comments__3> .comments-line {
+        margin-left: 18px;
+        }
+    .comments__2 {
+        margin-top: 61px;
+        }
+    .comments__3 {
+        margin-top: 63px;
+        }
+.footer {
+    width: 100%;
+    max-width: 480px;
+    height: 201px;
+    }
+    .footerInner {
+        width: 100%;
+        }
+    .menu-footer {
+        width: 460px;
+        min-width: 320px;
+        margin-top: 47px;
+        display: flex;
+        justify-content: space-around;
+        }
+    .menu__link--footer {
+        margin: 0 auto;
+        }
+    .footer-text {
+      margin: 31px auto;
+      float: none;
+      text-align: center;
+        }
+      }
